@@ -1,0 +1,52 @@
+[
+  {
+    "guid": {
+      "a": "0151863e-5fd6-e35c-e7d6-b122f7c25413",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Mustache_Base_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7226514425082019841",
+    "skinObjGuid": "Guid(4789231394126930623, 9166762139924742816)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "5ca3213e-8cc6-d8de-e644-fc058fd467b1"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "u_NormalTex",
+        "guid": "7968b36d-67f4-c26d-0cc9-7b9fef5d2a32"
+      },
+      {
+        "propertyName": "u_MRATex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_EmissiveTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_FresnelTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_ThinTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_EnvTex",
+        "guid": "00000000-0000-0000-0000-000000000020"
+      }
+    ]
+  }
+]

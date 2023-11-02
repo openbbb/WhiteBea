@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "2c42eee1-56bc-7a0b-da0d-7bce06096a98",
+      "b": ""
+    },
+    "extraType": "ResItemFaceMesh",
+    "name": "Face",
+    "expandInPanel": false,
+    "fillEyes": true,
+    "fillMouth": true,
+    "faceIndex": 0,
+    "objGuid": "",
+    "rttiType": "Mesh",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7226514425082019841"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "3ce96d7a-4a2e-09ee-71d0-b2af07b694d9",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Mustache_Model",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7226514425082019841",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": true,
+    "materialsGUIDs": [],
+    "meshGUIDs": [
+      "90c28429-b4d4-8384-93b4-dbe23998b58b",
+      "7ce19696-b1cd-688a-4854-d6d24955905e",
+      "a07ae499-fcda-3867-ad0f-bb82e54c1226",
+      "7c1ffef3-b531-20ad-8eda-977025195a4f"
+    ],
+    "animazGUIDs": []
+  }
+]

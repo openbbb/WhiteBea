@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "7968b36d-67f4-c26d-0cc9-7b9fef5d2a32",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Mustache_Base_Normal",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7226514425082019841",
+    "compressionType": 1,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

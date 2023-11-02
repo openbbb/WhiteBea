@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "6c5c704e-6822-91ef-ca02-8479fa2ff6ca",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Mustache_Hair_Albedo",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7226514425082019841",
+    "compressionType": 1,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

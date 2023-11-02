@@ -1,0 +1,644 @@
+%YAML 1.1
+--- !Prefab &1
+name: ""
+guid: {a: 5123800301063920109, b: 13378007508366341005}
+entities:
+  - __class: Entity
+    name: Mustache
+    guid: {a: 4636753897767674599, b: 11059962222753296831}
+    selfvisible: true
+    components:
+      - {localId: 2}
+    layer: 0
+  - __class: Entity
+    name: 3D Face
+    guid: {a: 4620278769087386762, b: 4294684691088904113}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 5634772700556846316, b: 5696291327402683023}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: f480d505-12ee-0ce3-f76a-a5ca6cd4378f--f480d505-12ee-0ce3-f76a-a5ca6cd4378f.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        castShadow: false
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 5456776121212216955, b: 4477752442706471349}
+        enabled: true
+        path: js/FaceShapeController.js
+        properties:
+          __class: Map
+          faceIdx: 0
+    layer: 0
+  - __class: Entity
+    name: Mustache_Model
+    guid: {a: 5161430956956413553, b: 17265376697714586282}
+    selfvisible: true
+    components:
+      - {localId: 4}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 4910390750063070235, b: 13141368756401636026}
+    selfvisible: true
+    components:
+      - {localId: 5}
+    layer: 0
+  - __class: Entity
+    name: jointR
+    guid: {a: 5226687109817256484, b: 18278619176875672723}
+    selfvisible: true
+    components:
+      - {localId: 6}
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 5449649338645594371, b: 3302649560267311523}
+        enabled: true
+        path: js/DynamicJoint.js
+        properties:
+          __class: Map
+          damping: 0.2
+          elasticity: 0.9
+          force: {x: 0, y: -1, z: 0}
+          inertia: 0.3
+          isLocalForce: false
+          isRelative: false
+          presets: 3
+          stiffness: 0.7
+    layer: 0
+  - __class: Entity
+    name: jointR02
+    guid: {a: 5646078769942608271, b: 8801157122369052317}
+    selfvisible: true
+    components:
+      - {localId: 7}
+    layer: 0
+  - __class: Entity
+    name: jointR03
+    guid: {a: 5196566323889018465, b: 3251823231976750770}
+    selfvisible: true
+    components:
+      - {localId: 8}
+    layer: 0
+  - __class: Entity
+    name: jointR04
+    guid: {a: 4733399077508035556, b: 7286383009785759388}
+    selfvisible: true
+    components:
+      - {localId: 9}
+    layer: 0
+  - __class: Entity
+    name: jointR05
+    guid: {a: 5326139629347356927, b: 2278905748098691254}
+    selfvisible: true
+    components:
+      - {localId: 10}
+    layer: 0
+  - __class: Entity
+    name: jointR06
+    guid: {a: 4760705164209499928, b: 16645493368387672467}
+    selfvisible: true
+    components:
+      - {localId: 11}
+    layer: 0
+  - __class: Entity
+    name: jointR07
+    guid: {a: 5457486199274897502, b: 2734786842173411997}
+    selfvisible: true
+    components:
+      - {localId: 12}
+    layer: 0
+  - __class: Entity
+    name: jointR08
+    guid: {a: 4808869465409827804, b: 10241514273497330337}
+    selfvisible: true
+    components:
+      - {localId: 13}
+    layer: 0
+  - __class: Entity
+    name: jointR09
+    guid: {a: 5589155637847790415, b: 946948830299711896}
+    selfvisible: true
+    components:
+      - {localId: 14}
+    layer: 0
+  - __class: Entity
+    name: Mustache_Base_R_Mesh
+    guid: {a: 5094242557399147993, b: 12124717012925051826}
+    selfvisible: true
+    components:
+      - {localId: 15}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 4630213176139895009, b: 12241886499553276843}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 0151863e-5fd6-e35c-e7d6-b122f7c25413--0151863e-5fd6-e35c-e7d6-b122f7c25413-skin.material}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 3ce96d7a-4a2e-09ee-71d0-b2af07b694d9--Mustache_Base_R_Mesh.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Mustache_Hair_R_Mesh
+    guid: {a: 5340679646142784430, b: 17617310222553530280}
+    selfvisible: true
+    components:
+      - {localId: 16}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5372322134656508777, b: 15979339126348089505}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 92d88d9e-ec08-1808-b93e-0c9579ef2610--92d88d9e-ec08-1808-b93e-0c9579ef2610-skin.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 3ce96d7a-4a2e-09ee-71d0-b2af07b694d9--Mustache_Hair_R_Mesh.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: jointL
+    guid: {a: 4697321400914812626, b: 1932281021293785987}
+    selfvisible: true
+    components:
+      - {localId: 17}
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 4962187855172157609, b: 9860179789088977069}
+        enabled: true
+        path: js/DynamicJoint.js
+        properties:
+          __class: Map
+          damping: 0.2
+          elasticity: 0.9
+          force: {x: 0, y: -1, z: 0}
+          inertia: 0.3
+          isLocalForce: false
+          isRelative: false
+          presets: 3
+          stiffness: 0.7
+    layer: 0
+  - __class: Entity
+    name: jointL02
+    guid: {a: 5066203904090604186, b: 3719077320666405527}
+    selfvisible: true
+    components:
+      - {localId: 18}
+    layer: 0
+  - __class: Entity
+    name: jointL03
+    guid: {a: 5737917783182804488, b: 11591916347575573669}
+    selfvisible: true
+    components:
+      - {localId: 19}
+    layer: 0
+  - __class: Entity
+    name: jointL04
+    guid: {a: 4997609823781036286, b: 8944034867459590810}
+    selfvisible: true
+    components:
+      - {localId: 20}
+    layer: 0
+  - __class: Entity
+    name: jointL05
+    guid: {a: 4636869752639134394, b: 10433840503125971887}
+    selfvisible: true
+    components:
+      - {localId: 21}
+    layer: 0
+  - __class: Entity
+    name: jointL06
+    guid: {a: 5715522034761872676, b: 16730528217050092434}
+    selfvisible: true
+    components:
+      - {localId: 22}
+    layer: 0
+  - __class: Entity
+    name: jointL07
+    guid: {a: 5553031051430901835, b: 4365477602188809648}
+    selfvisible: true
+    components:
+      - {localId: 23}
+    layer: 0
+  - __class: Entity
+    name: jointL08
+    guid: {a: 4773640838325727504, b: 17098882522502904986}
+    selfvisible: true
+    components:
+      - {localId: 24}
+    layer: 0
+  - __class: Entity
+    name: jointL09
+    guid: {a: 4631111009720095373, b: 542965211328598717}
+    selfvisible: true
+    components:
+      - {localId: 25}
+    layer: 0
+  - __class: Entity
+    name: Mustache_Base_L_Mesh
+    guid: {a: 4887420628657591540, b: 11335148508994559407}
+    selfvisible: true
+    components:
+      - {localId: 26}
+      - __class: SkinMeshRenderer
+        name: mesh2_renderer
+        guid: {a: 4902903037562158879, b: 3946112059894065810}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 0151863e-5fd6-e35c-e7d6-b122f7c25413--0151863e-5fd6-e35c-e7d6-b122f7c25413-skin.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 3ce96d7a-4a2e-09ee-71d0-b2af07b694d9--Mustache_Base_L_Mesh.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Mustache_Hair_L_Mesh
+    guid: {a: 5116302677995892109, b: 2922125730968601023}
+    selfvisible: true
+    components:
+      - {localId: 27}
+      - __class: SkinMeshRenderer
+        name: mesh3_renderer
+        guid: {a: 5262201564675650553, b: 13996703169744074931}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 92d88d9e-ec08-1808-b93e-0c9579ef2610--92d88d9e-ec08-1808-b93e-0c9579ef2610-skin.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 3ce96d7a-4a2e-09ee-71d0-b2af07b694d9--Mustache_Hair_L_Mesh.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !Transform &2
+name: ""
+guid: {a: 4979959417248026765, b: 10214135107254175907}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 3}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 5657716199256425448, b: 13531047667977202830}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+children:
+  - {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: ""
+guid: {a: 4735224741895831449, b: 1048672174412928384}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+children:
+  - {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: SkeletonAndRenderRoot
+guid: {a: 5755889867083629452, b: 4336640496367038858}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1.273197, y: 1.273197, z: 1.273197}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+children:
+  - {localId: 6}
+  - {localId: 15}
+  - {localId: 16}
+  - {localId: 17}
+  - {localId: 26}
+  - {localId: 27}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: jointR
+guid: {a: 5213666702682743135, b: 11973307296748456087}
+enabled: true
+localPosition: {x: 0, y: -2.420559, z: 5.805298}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6317703, x: -0.08754811, y: 0.09347327, z: 0.7645028}
+parent: {localId: 5}
+children:
+  - {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: jointR02
+guid: {a: 4728140128230102403, b: 12192341360384793508}
+enabled: true
+localPosition: {x: 1e-15, y: 1.5, z: -1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6067901, x: -0.1777211, y: 0.1415789, z: 0.7616931}
+parent: {localId: 6}
+children:
+  - {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: jointR03
+guid: {a: 5424946302826008716, b: 5926080229397610900}
+enabled: true
+localPosition: {x: 1.5, y: -1e-15, z: 0}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: -0.996961, x: 0.003025949, y: -0.05246655, z: -0.05750616}
+parent: {localId: 7}
+children:
+  - {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: jointR04
+guid: {a: 4685609652107733520, b: 5160552206564635826}
+enabled: true
+localPosition: {x: 1.5, y: 6.738847e-07, z: 2.482272e-06}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: -0.9883438, x: 0.006022215, y: 0.04059965, z: 0.1466013}
+parent: {localId: 8}
+children:
+  - {localId: 10}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: jointR05
+guid: {a: 4781021217262783465, b: 12719946874066309050}
+enabled: true
+localPosition: {x: 1.5, y: -1.776357e-15, z: 1e-15}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: -0.9069021, x: 0.03717569, y: 0.04172028, z: 0.4176195}
+parent: {localId: 9}
+children:
+  - {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: jointR06
+guid: {a: 5578366043802140059, b: 15941256342224926353}
+enabled: true
+localPosition: {x: 1.2, y: 0, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: -0.9428176, x: 0.0003327022, y: -0.008744094, z: 0.3331943}
+parent: {localId: 10}
+children:
+  - {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: jointR07
+guid: {a: 4625537090206705777, b: 14431946225524491935}
+enabled: true
+localPosition: {x: 1, y: 2.664535e-15, z: 1.568657e-06}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.9158568, x: 0, y: 0, z: 0.401505}
+parent: {localId: 11}
+children:
+  - {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: jointR08
+guid: {a: 4913153906393751877, b: 9339358760027321485}
+enabled: true
+localPosition: {x: 0.8, y: -1e-15, z: -1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.9675034, x: -0.008462242, y: -0.03267112, z: 0.250596}
+parent: {localId: 12}
+children:
+  - {localId: 14}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: jointR09
+guid: {a: 5009048437754871536, b: 1924532346246067618}
+enabled: true
+localPosition: {x: 0.8, y: -1e-15, z: 1e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.4451856, x: 0.4364595, y: -0.5493724, z: 0.5563298}
+parent: {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: Mustache_Base_R_Mesh
+guid: {a: 5301909080739852965, b: 529058310419896971}
+enabled: true
+localPosition: {x: 0, y: 5.329071e-15, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: Mustache_Hair_R_Mesh
+guid: {a: 5536386765987734729, b: 9865732858601824168}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: jointL
+guid: {a: 5234698744606488022, b: 7118751310371232908}
+enabled: true
+localPosition: {x: 0, y: -2.42056, z: 5.8053}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.08754867, x: 0.6317704, y: -0.7645027, z: 0.09347318}
+parent: {localId: 5}
+children:
+  - {localId: 18}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: jointL02
+guid: {a: 5568815570715815135, b: 14395919810961126577}
+enabled: true
+localPosition: {x: 2.846184e-06, y: -1.5, z: 5.446861e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6067901, x: -0.1777211, y: 0.1415789, z: 0.7616931}
+parent: {localId: 17}
+children:
+  - {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &19
+name: jointL03
+guid: {a: 4641307790786445620, b: 17682627506190953391}
+enabled: true
+localPosition: {x: -1.499999, y: -1.192686e-06, z: -7.104239e-07}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: -0.996961, x: 0.003025949, y: -0.05246655, z: -0.05750616}
+parent: {localId: 18}
+children:
+  - {localId: 20}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &20
+name: jointL04
+guid: {a: 4741731565241203455, b: 4947249252811130047}
+enabled: true
+localPosition: {x: -1.499999, y: 6.199145e-06, z: 1.652827e-07}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: -0.9883438, x: 0.006022215, y: 0.04059965, z: 0.1466013}
+parent: {localId: 19}
+children:
+  - {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: jointL05
+guid: {a: 5393403534813396815, b: 3828334638167017345}
+enabled: true
+localPosition: {x: -1.499999, y: -6.96606e-06, z: -1.314446e-06}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: -0.9069021, x: 0.03717569, y: 0.04172028, z: 0.4176195}
+parent: {localId: 20}
+children:
+  - {localId: 22}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &22
+name: jointL06
+guid: {a: 4652080096387464661, b: 10374505907096508549}
+enabled: true
+localPosition: {x: -1.20001, y: -3.328602e-08, z: 2.651608e-06}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: -0.9428176, x: 0.0003327022, y: -0.008744094, z: 0.3331943}
+parent: {localId: 21}
+children:
+  - {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &23
+name: jointL07
+guid: {a: 5522214693161318824, b: 9814981611303317924}
+enabled: true
+localPosition: {x: -1.000001, y: 3.480598e-06, z: -8.160856e-06}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.9158568, x: -6.823663e-09, y: 2.991472e-09, z: 0.401505}
+parent: {localId: 22}
+children:
+  - {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: jointL08
+guid: {a: 5050418580001639925, b: 5012171902592282775}
+enabled: true
+localPosition: {x: -0.7999951, y: 3.222201e-06, z: 1.913367e-06}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.9675034, x: -0.008462242, y: -0.03267112, z: 0.250596}
+parent: {localId: 23}
+children:
+  - {localId: 25}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: jointL09
+guid: {a: 5586287313650862165, b: 13388301108587143830}
+enabled: true
+localPosition: {x: -0.8000094, y: -2.922247e-06, z: 2.224338e-06}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.4451856, x: 0.4364595, y: -0.5493724, z: 0.5563298}
+parent: {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: Mustache_Base_L_Mesh
+guid: {a: 4743551171045324701, b: 17724723710847428543}
+enabled: true
+localPosition: {x: 0, y: 5.329071e-15, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &27
+name: Mustache_Hair_L_Mesh
+guid: {a: 5283107709811300478, b: 7670788491341031322}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic

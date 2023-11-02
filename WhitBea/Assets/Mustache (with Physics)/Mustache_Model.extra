@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "ada21c3d-4352-347e-fce4-a47209f0edc1",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Mustache_Model",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

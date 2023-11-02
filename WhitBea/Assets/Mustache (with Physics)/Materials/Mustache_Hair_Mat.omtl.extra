@@ -1,0 +1,52 @@
+[
+  {
+    "guid": {
+      "a": "92d88d9e-ec08-1808-b93e-0c9579ef2610",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Mustache_Hair_Mat",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7226514425082019841",
+    "skinObjGuid": "Guid(5567140476039278046, 7876790323661938826)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "6c5c704e-6822-91ef-ca02-8479fa2ff6ca"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "u_NormalTex",
+        "guid": "9a0ff822-586b-5a65-5afb-0b5a7daa2fb2"
+      },
+      {
+        "propertyName": "u_MRATex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_EmissiveTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_FresnelTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_ThinTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_EnvTex",
+        "guid": "00000000-0000-0000-0000-000000000020"
+      }
+    ]
+  }
+]
